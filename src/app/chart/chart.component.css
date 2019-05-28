@@ -1,0 +1,22 @@
+.col-md-7{
+    margin-right: 4.7vw;
+}
+.chart{
+    padding-top:1vw;
+}
+
+.chart a{
+    background-color: #ddd;
+    padding: 2px 15px 2px 15px;
+    transition: 1s;
+}
+
+.chart a:hover{
+    background-color: #9e9e9e;
+}
+
+hr{
+    width: 150px;
+    margin-top: -4px;
+    margin-left: -16px;
+}

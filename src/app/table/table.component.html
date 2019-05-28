@@ -1,0 +1,85 @@
+<div class="row table">
+    <div class="col-lg-12">
+        <div class="header-table">
+            <h3>
+                RECENT CUSTOMERS
+            <a class="float-right" href="#">
+                <img  src="assets/settings.png">
+            </a></h3>
+        </div>
+        <table class="table-striped table-borderless border">
+            <tr *ngFor="let person of this.peoples">
+                <td class="align-middle name data">{{person.name}}</td>
+                <td class="align-middle data">{{person.join}}<br><span>joined</span></td>
+                <td class="align-middle data">{{person.phone}}<br><span>Phone Number</span></td>
+                <td class="align-middle data">{{person.location}}<br><span>Location</span></td>
+                <td>
+                    <button type="button" class="btn btn-light">Options</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary">Details</button>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td class="align-middle">Jerry Mattedi</td>
+                <td class="align-middle">13 aug 2018 joined</td>
+                <td class="align-middle">251-661-5362 Phone Number</td>
+                <td class="align-middle">New York Location</td>
+                <td>
+                    <button type="button" class="btn btn-light">Options</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary">Details</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="align-middle">Elianora Vasilov</td>
+                <td class="align-middle">13 aug 2018 joined</td>
+                <td class="align-middle">351-661-3251 Phone Number</td>
+                <td class="align-middle">Ontario Location</td>
+                <td>
+                    <button type="button" class="btn btn-light">Options</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary">Details</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="align-middle">Marcos Anguiano</td>
+                <td class="align-middle">13 aug 2018 joined</td>
+                <td class="align-middle">251-661-5362 Phone Number</td>
+                <td class="align-middle">Milan Location</td>
+                <td>
+                    <button type="button" class="btn btn-light">Options</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary">Details</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="align-middle">Alvis Daen</td>
+                <td class="align-middle">13 aug 2018 joined</td>
+                <td class="align-middle">351-661-3252 Phone Number</td>
+                <td class="align-middle">Las Vegas Location</td>
+                <td>
+                    <button type="button" class="btn btn-light">Options</button>
+                </td>
+                <td >
+                    <button type="button" class="btn btn-secondary">Details</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="align-middle">Lissa Shipsey</td>
+                <td class="align-middle">13 aug 2018 joined</td>
+                <td class="align-middle">251-661-5362 Phone Number</td>
+                <td class="align-middle">San Francisco Location</td>
+                <td>
+                    <button type="button" class="btn btn-light">Options</button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary">Details</button>
+                </td>
+            </tr> -->
+        </table>
+    </div>
+</div>

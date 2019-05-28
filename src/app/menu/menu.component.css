@@ -1,0 +1,43 @@
+.menu-cima{
+    padding-right: -100px;
+    height: 60px;
+    margin-left: 56px;
+}
+
+.menu-cima a{
+    padding-left: 1vw;
+}
+.nav-link img{
+    border: 1px solid rgba(1,1,1,1);
+    border-radius: 30px;
+}
+
+.pos-f-t{
+    width: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    padding: 0;
+    /* width: 50%; */
+}
+
+.navbar-toggler{
+    border-radius: 0;
+    height: 60px;
+}
+
+
+.collapse .icons{
+    height: 100%
+}
+
+.collapse .icons img{
+    margin: 1vw;
+}
+
+.collapsing .icons img{
+    margin: 1vw;
+}

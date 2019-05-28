@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+*{
+    /* font-family: 'EB Garamond', serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Cabin', sans-serif; */
+    font-family: 'Fjalla One', sans-serif;
+}
+
+section{
+    margin-top:2vw;
+
+}
+
+footer{
+    padding:15px 15px 15px 55px;
+}

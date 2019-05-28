@@ -1,0 +1,10 @@
+.card{
+    width: 21.3rem;
+    margin-right: 1vw;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+}
+
