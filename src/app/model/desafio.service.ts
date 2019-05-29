@@ -9,11 +9,8 @@ export class DesafioService {
 
   business: Business;
   peoples: Person[];
-  // b: any;
 
   constructor() {
-    // this.b = {name: 'ESIG', sales: 21324, income: 221324, views: 652234}
-    // this.business = this.b;
     this.peoples = [];
     this.addperson();
     this.addbusiness();

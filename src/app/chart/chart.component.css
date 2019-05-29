@@ -1,6 +1,36 @@
-.col-md-7{
-    margin-right: 4.7vw;
+@media (max-width: 480px) { 
+    .chart {
+        width: 200px;
+    }
 }
+ 
+@media (max-width: 767px) {
+    .chart {
+        width: 500px;
+    }
+}
+ 
+@media (min-width: 768px) and (max-width: 979px) {
+    .chart {
+        margin-right: 1.7vw;
+        color:Red;
+    }
+    
+}
+
+@media (min-width: 979px) and (max-width:1200px){
+    .chart {
+        margin-right: 2.8vw;
+        color:Red;
+    }
+}
+ 
+@media (min-width: 1200px) {
+    .col-md-7 {
+        margin-right: 3.7vw;
+    }
+}
+
 .chart{
     padding-top:1vw;
 }
