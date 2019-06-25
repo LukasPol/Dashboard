@@ -1,10 +1,8 @@
-# Desafio Esig
+# Página
 
-Muito bom o desafio, gostei bastante!!
+Uma página simples feito em Angular 7.3
 
-Algumas coisas que não sabia como fazer, porém com este desafio aprendi, pretendo muito passsar neste teste para cada vez mais aprender..
-
-Muito Obrigado ESIG!!
+Foi feito gráficos usando o componentes do [PrimeNG](https://www.primefaces.org/primeng/#/)
 
 Icones retirados de:
 
